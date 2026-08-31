@@ -37,7 +37,7 @@ void _setup_gpio() {
     digitalWrite(SDCARD_CS, HIGH);
     digitalWrite(W5500_SS_PIN, HIGH);
     digitalWrite(TFT_CS, HIGH);
-#ifdef ILI9341_DRIVER
+#if defined(ILI9341_DRIVER) || defined(ILI9488_DRIVER)
     bruceConfig.colorInverted = 0;
 #endif
 }

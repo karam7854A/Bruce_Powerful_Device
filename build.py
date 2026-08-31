@@ -102,7 +102,11 @@ def _merge_bins_callback(target, source, env):
         q(python_exe), "-m", "platformio", "pkg", "exec", "-p", q("tool-esptoolpy"), "--", "esptool.py",
         "--chip", chip_arg,
         "merge-bin",
+        "--flash-mode", "dio",
+        "--flash-freq", "40m",
+        "--flash-size", "4MB",
         "--output", q(out_bin),
+
         hex(boot_offset), q(boot_bin),
         hex(PART_TABLE_OFFSET), q(part_bin),
         hex(APP_OFFSET), q(app_bin),

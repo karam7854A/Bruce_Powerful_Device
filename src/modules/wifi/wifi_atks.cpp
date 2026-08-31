@@ -29,10 +29,13 @@ const uint8_t _default_target[6] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 
 std::vector<wifi_ap_record_t> ap_records;
 
+#ifndef CONFIG_IDF_TARGET_ESP32C5
 extern "C" int ieee80211_raw_frame_sanity_check(int32_t arg, int32_t arg2, int32_t arg3) {
     if (arg == 31337) return 1;
     else return 0;
 }
+#endif
+
 
 uint8_t deauth_frame[sizeof(deauth_frame_default)];
 
