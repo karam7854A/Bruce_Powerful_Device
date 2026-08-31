@@ -11,7 +11,11 @@ The goal of this project is to have more knowledge about cybersecurity and elect
 
 Features:
  -The device can make most of Bruce Firmware features including RFID scan,BLE Attack, Wifi Attack, IR control, Sub-GHz attacks, etc.
+ 
  -It has a 1560mAh Battery that can stay for up to 2h+ of working
+ 
  -It has a large TFT 4.0inch with touch features
+ 
  -It uses the powerful ESP-32 C5 wroom
+ 
  -
