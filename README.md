@@ -1,3 +1,5 @@
+<img width="126" height="221" alt="Screenshot 2026-08-30 220057" src="https://github.com/user-attachments/assets/3d34e655-94d3-46cf-a76c-8cc7e8c477b9" />
+<img width="126" height="221" alt="Screenshot 2026-08-30 220057" src="https://github.com/user-attachments/assets/62cb803a-3e43-4898-ba13-811f01aa78d8" />
 # Bruce_Powerful_Device
 In this hardware project I made a device that has all sensors you need for Bruce Firmware 
 <img width="1280" height="720" alt="WIN_20260830_21_21_58_Pro" src="https://github.com/user-attachments/assets/29921e14-269c-42f9-86fb-2ebf0b1a0260" />
