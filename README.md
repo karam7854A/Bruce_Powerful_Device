@@ -20,7 +20,7 @@ The enclosure was assembled without a custom PCB in the first prototype. That ch
 - 4-inch touchscreen for interacting with the firmware.
 - Four or more sensors/modules connected to the device; the exact wiring is documented as the hardware is revised.
 - Custom enclosure designed for the prototype.
-- Design files and prototypes in [`Firmware/Desings/`](Firmware/Desings/).
+- Design files and prototypes in [`Designs/`](Designs/).
 - Bill of materials in [`BOM.csv`](BOM.csv).
 
 ![Project design sketch](https://github.com/user-attachments/assets/084159ca-ff31-42ff-8e44-21ac85a95e44)
@@ -68,7 +68,7 @@ All project folders are grouped under [`Firmware/`](Firmware/) so the repository
 | `Firmware/include/` | Project headers and generated interfaces |
 | `Firmware/lib/` | Local libraries and hardware abstraction code |
 | `Firmware/boards/` | Board definitions, pin mappings, and PlatformIO environments |
-| `Firmware/Desings/` | Enclosure prototypes, sketches, and 3D files |
+| `Designs/` | Enclosure prototypes, sketches, and 3D files |
 | `Firmware/media/` | Project and hardware reference media |
 | `Firmware/pcbs/` | PCB experiments and board documentation |
 | `Firmware/sd_files/` | Files used by the device’s SD-card workflows |
