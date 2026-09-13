@@ -21,7 +21,7 @@ The enclosure was assembled without a custom PCB in the first prototype. That ch
 - Four or more sensors/modules connected to the device; the exact wiring is documented as the hardware is revised.
 - Custom enclosure designed for the prototype.
 - Design files and prototypes in [`Firmware/Desings/`](Firmware/Desings/).
-- Bill of materials in [`Firmware/BOM.csv`](Firmware/BOM.csv).
+- Bill of materials in [`BOM.csv`](BOM.csv).
 
 ![Project design sketch](https://github.com/user-attachments/assets/084159ca-ff31-42ff-8e44-21ac85a95e44)
 
