@@ -35,7 +35,7 @@ The enclosure was assembled without a custom PCB in the first prototype. That ch
 
 ## Quick start
 
-The firmware is a PlatformIO project inside `Firmware/`.
+The firmware is a PlatformIO project inside `Bruce_Firmware/`.
 
 ```bash
 git clone https://github.com/karam7854A/Bruce_Powerful_Device.git
@@ -49,33 +49,33 @@ To build the ESP32-C5 TFT target when it is available in your PlatformIO install
 pio run -e esp32-c5-tft
 ```
 
-Connect the appropriate ESP32-C5 board over USB and upload using the matching environment from [`Firmware/platformio.ini`](Firmware/platformio.ini). Check the board-specific files in [`Firmware/boards/`](Firmware/boards/) before flashing a physical device; pin mappings and display settings vary between boards.
+Connect the appropriate ESP32-C5 board over USB and upload using the matching environment from [`Bruce_Firmware/platformio.ini`](Bruce_Firmware/platformio.ini). Check the board-specific files in [`Bruce_Firmware/boards/`](Bruce_Firmware/boards/) before flashing a physical device; pin mappings and display settings vary between boards.
 
 ### Requirements
 
 - PlatformIO Core or Visual Studio Code with the PlatformIO extension.
 - A compatible ESP32 board and USB data cable.
-- The dependencies declared in [`Firmware/platformio.ini`](Firmware/platformio.ini).
+- The dependencies declared in [`Bruce_Firmware/platformio.ini`](Bruce_Firmware/platformio.ini).
 - The correct board configuration for the display and modules being used.
 
 ## Repository layout
 
-All project folders are grouped under [`Firmware/`](Firmware/) so the repository has one clear project root while this README remains easy to find on GitHub.
+All project folders are grouped under [`Bruce_Firmware/`](Bruce_Firmware/) so the repository has one clear project root while this README remains easy to find on GitHub.
 
 | Path | Purpose |
 | --- | --- |
-| `Firmware/src/` | Main firmware source and modules |
-| `Firmware/include/` | Project headers and generated interfaces |
-| `Firmware/lib/` | Local libraries and hardware abstraction code |
-| `Firmware/boards/` | Board definitions, pin mappings, and PlatformIO environments |
+| `Bruce_Firmware/src/` | Main firmware source and modules |
+| `Bruce_Firmware/include/` | Project headers and generated interfaces |
+| `Bruce_Firmware/lib/` | Local libraries and hardware abstraction code |
+| `Bruce_Firmware/boards/` | Board definitions, pin mappings, and PlatformIO environments |
 | `Designs/` | Enclosure prototypes, sketches, and 3D files |
-| `Firmware/media/` | Project and hardware reference media |
-| `Firmware/pcbs/` | PCB experiments and board documentation |
-| `Firmware/sd_files/` | Files used by the device’s SD-card workflows |
-| `Firmware/embedded_resources/` | Web interface and embedded resources |
-| `Firmware/tools/` | Build and development utilities |
-| `Firmware/docker/` | Container and CI build helpers |
-| `Firmware/.vscode/` | Editor tasks and settings |
+| `Bruce_Firmware/media/` | Project and hardware reference media |
+| `Bruce_Firmware/pcbs/` | PCB experiments and board documentation |
+| `Bruce_Firmware/sd_files/` | Files used by the device’s SD-card workflows |
+| `Bruce_Firmware/embedded_resources/` | Web interface and embedded resources |
+| `Bruce_Firmware/tools/` | Build and development utilities |
+| `Bruce_Firmware/docker/` | Container and CI build helpers |
+| `Bruce_Firmware/.vscode/` | Editor tasks and settings |
 
 ## How it works
 
@@ -100,10 +100,10 @@ This device is intended for learning, testing owned hardware, and authorized sec
 ## Credits and acknowledgements
 
 - [Bruce](https://github.com/pr3y/Bruce), the open-source firmware project this device builds upon.
-- The maintainers of the libraries and board support packages listed in [`Firmware/THIRD_PARTY.md`](Firmware/THIRD_PARTY.md).
+- The maintainers of the libraries and board support packages listed in [`Bruce_Firmware/THIRD_PARTY.md`](Bruce_Firmware/THIRD_PARTY.md).
 - PlatformIO and Espressif’s Arduino framework.
 
-The project’s third-party notices and license information are in [`Firmware/THIRD_PARTY.md`](Firmware/THIRD_PARTY.md) and [`Firmware/LICENSE`](Firmware/LICENSE).
+The project’s third-party notices and license information are in [`Bruce_Firmware/THIRD_PARTY.md`](Bruce_Firmware/THIRD_PARTY.md) and [`Bruce_Firmware/LICENSE`](Bruce_Firmware/LICENSE).
 
 ## Stardance shipping checklist
 
