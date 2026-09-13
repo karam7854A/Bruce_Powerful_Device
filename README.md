@@ -20,7 +20,7 @@ The enclosure was assembled without a custom PCB in the first prototype. That ch
 - 4-inch touchscreen for interacting with the firmware.
 - Four or more sensors/modules connected to the device; the exact wiring is documented as the hardware is revised.
 - Custom enclosure designed for the prototype.
-- Design files and prototypes in [`Designs/`](Designs/).
+- Design files and prototypes in [`Cad_Designs/`](Cad_Designs/).
 - Bill of materials in [`BOM.csv`](BOM.csv).
 
 ![Project design sketch](https://github.com/user-attachments/assets/084159ca-ff31-42ff-8e44-21ac85a95e44)
@@ -68,7 +68,7 @@ All project folders are grouped under [`Bruce_Firmware/`](Bruce_Firmware/) so th
 | `Bruce_Firmware/include/` | Project headers and generated interfaces |
 | `Bruce_Firmware/lib/` | Local libraries and hardware abstraction code |
 | `Bruce_Firmware/boards/` | Board definitions, pin mappings, and PlatformIO environments |
-| `Designs/` | Enclosure prototypes, sketches, and 3D files |
+| `Cad_Designs/` | Enclosure prototypes, sketches, and 3D files |
 | `Bruce_Firmware/media/` | Project and hardware reference media |
 | `Bruce_Firmware/pcbs/` | PCB experiments and board documentation |
 | `Bruce_Firmware/sd_files/` | Files used by the device’s SD-card workflows |
