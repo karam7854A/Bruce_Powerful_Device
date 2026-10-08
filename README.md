@@ -1,6 +1,6 @@
 # Bruce_Powerful_Device
-About it :
-I got inspired by the idea from my love to electronics and cybersecurity.
+# About it :
+**I got inspired by the idea from my love to electronics and cybersecurity.**
 
 # Features:
   ### The project uses all possible features that are inside Bruce Firmware, NFC scanning, Sub-ghz (433Mhz) scanning, bluetooth,etc.
