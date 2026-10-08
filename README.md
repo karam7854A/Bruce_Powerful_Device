@@ -10,8 +10,8 @@ I got inspired by the idea from my love to electronics and cybersecurity.
 <img width="126" height="221" alt="Screenshot 2026-08-30 220057" src="https://github.com/user-attachments/assets/c56a11e0-7dec-4eb6-a4c0-ce1eea87e9e8" />
 
 **##Why is it special?**
-  ##This project has a uniqe design that was tested several times as shown in Cad_Designs.
-  It has a battery that can last for 2+ hours without stopping.
+  *##This project has a uniqe design that was tested several times as shown in Cad_Designs.
+  It has a battery that can last for 2+ hours without stopping.*
 
 
 
