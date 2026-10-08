@@ -1,9 +1,9 @@
-**# Bruce_Powerful_Device**
+**1Bruce_Powerful_Device**
 
 About it :
 I got inspired by the idea from my love to electronics and cybersecurity.
 
-**## Features:**
+**1 Features:**
   ##The project uses all possible features that are inside Bruce Firmware, NFC scanning, Sub-ghz (433Mhz) scanning, bluetooth,etc.
   It also has a bigger screen and a touch screen which was edited in the Bruce code by VS Code.
 
