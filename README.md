@@ -62,58 +62,16 @@ Connect the appropriate ESP32-C5 board over USB and upload using the matching en
 
 All project folders are grouped under [`Bruce_Firmware/`](Bruce_Firmware/) so the repository has one clear project root while this README remains easy to find on GitHub.
 
-| Path | Purpose |
-| --- | --- |
-| `Bruce_Firmware/src/` | Main firmware source and modules |
-| `Bruce_Firmware/include/` | Project headers and generated interfaces |
-| `Bruce_Firmware/lib/` | Local libraries and hardware abstraction code |
-| `Bruce_Firmware/boards/` | Board definitions, pin mappings, and PlatformIO environments |
-| `Cad_Designs/` | Enclosure prototypes, sketches, and 3D files |
-| `Bruce_Firmware/media/` | Project and hardware reference media |
-| `Bruce_Firmware/pcbs/` | PCB experiments and board documentation |
-| `Bruce_Firmware/sd_files/` | Files used by the device’s SD-card workflows |
-| `Bruce_Firmware/embedded_resources/` | Web interface and embedded resources |
-| `Bruce_Firmware/tools/` | Build and development utilities |
-| `Bruce_Firmware/docker/` | Container and CI build helpers |
-| `Bruce_Firmware/.vscode/` | Editor tasks and settings |
-
 ## How it works
 
 The ESP32-C5 runs Bruce firmware and presents its tools through the touchscreen. Project-specific board files define the display, pins, and connected hardware, while the firmware’s modules provide the reusable device functionality. PlatformIO manages the framework, libraries, board configuration, and build scripts.
 
 The current prototype prioritizes learning and rapid iteration: modules are wired directly instead of routed through a finished PCB. This makes the design easier to change while testing, and the saved enclosure and PCB work provide a foundation for a more robust next version.
 
-## Project story and progress
-
-This project started as a hands-on way to learn electrical engineering, embedded programming, and cybersecurity hardware. The first enclosure was built under time pressure, so it intentionally documents both the working result and the areas that still need improvement: cleaner wiring, a finalized PCB, clearer sensor pinout documentation, and a repeatable assembly guide.
-
-For a Stardance submission, the project should be accompanied by a short walkthrough video and development log showing the prototype, touchscreen interaction, sensor tests, firmware changes, and the next hardware revision. Those links will be added here when published:
-
-- **Demo / walkthrough video:** _To be added_
-- **Development log:** _To be added_
-- **Build notes and wiring diagram:** _In progress_
-
-## Safety and responsible use
-
-This device is intended for learning, testing owned hardware, and authorized security research. Do not use wireless, NFC, USB, or other capabilities against systems, networks, devices, or credentials without explicit permission. Follow local laws and the licenses of all included third-party software.
-
-## Credits and acknowledgements
+## Credits 
 
 - [Bruce](https://github.com/pr3y/Bruce), the open-source firmware project this device builds upon.
 - The maintainers of the libraries and board support packages listed in [`Bruce_Firmware/THIRD_PARTY.md`](Bruce_Firmware/THIRD_PARTY.md).
 - PlatformIO and Espressif’s Arduino framework.
 
 The project’s third-party notices and license information are in [`Bruce_Firmware/THIRD_PARTY.md`](Bruce_Firmware/THIRD_PARTY.md) and [`Bruce_Firmware/LICENSE`](Bruce_Firmware/LICENSE).
-
-## Stardance shipping checklist
-
-- [x] Public, cloneable GitHub repository.
-- [x] Clear project description and hardware photo.
-- [x] Quick-start and local build instructions.
-- [x] Feature list and technical explanation.
-- [x] Credits and third-party notices.
-- [ ] Publish a short hardware walkthrough video.
-- [ ] Add a development log with dated progress updates.
-- [ ] Add a final wiring diagram and reproducible assembly instructions.
-
-This README follows the [Stardance README guidance](https://stardance.hackclub.com/resources/great_readme). Stardance hardware projects can use photos, a walkthrough video, printable enclosure files, and PCB documentation as their demo materials; see the [Stardance shipping guidance](https://stardance.hackclub.com/resources/what_is_shipping).
